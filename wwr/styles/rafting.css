@@ -30,6 +30,7 @@ header {
     grid-template-columns: 180px 1fr;
     align-items: center;
     padding: 10px;
+    background-color: var(--accent1-color);
 }
 
 header img {
@@ -46,6 +47,10 @@ nav a {
     text-decoration: none;
     color: var(--primary-color);
     font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--secondary-color);
 }
 
 h1,
@@ -75,6 +80,7 @@ p {
 section {
     margin: 25px 0;
     padding: 15px;
+    background-color: var(--accent2-color);
 }
 
 .hero {
